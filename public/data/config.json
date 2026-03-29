@@ -1,0 +1,290 @@
+{
+  "settings": {
+    "title": "Juraj Žáček | Motion, AI & AR Designer",
+    "ownerName": "Juraj Žáček",
+    "email": "jurajzacek13@gmail.com",
+    "location": "Bratislava, Slovakia",
+    "inquireLabel": "Kontaktovať",
+    "seo": {
+      "description": "Portfólio Juraja Žáčka. Motion dizajn, AI content, AR filtre a vizuály pre agentúry a moderné značky.",
+      "keywords": [
+        "motion dizajn",
+        "AI content",
+        "AR filtre",
+        "graphic designer",
+        "Bratislava",
+        "portfolio"
+      ],
+      "ogImage": "/assets/og-image.jpg"
+    }
+  },
+  "footer": {
+    "privacyLabel": "Súkromie",
+    "termsLabel": "Podmienky",
+    "cookiePolicyLabel": "Cookies",
+    "rightsReservedLabel": "Všetky práva vyhradené."
+  },
+  "error": {
+    "title": "Nepodarilo sa načítať obsah",
+    "description": "Skúste, prosím, obnoviť stránku.",
+    "retryLabel": "Skúsiť znova",
+    "invalidFormatLabel": "Neplatný formát",
+    "missingAssetLabel": "Chýbajúci asset"
+  },
+  "navigation": [
+    { "id": "work", "label": "Projekty", "visible": true, "order": 1 },
+    { "id": "about", "label": "O mne", "visible": true, "order": 2 },
+    { "id": "pricing", "label": "Balíky", "visible": true, "order": 3 },
+    { "id": "services", "label": "Služby", "visible": true, "order": 4 },
+    { "id": "ar", "label": "AR", "visible": true, "order": 5 },
+    { "id": "contact", "label": "Kontakt", "visible": true, "order": 6 }
+  ],
+  "hero": {
+    "backgroundImage": "/assets/hero/main.jpg",
+    "eyebrow": "Motion / AI / AR / Graphic Design",
+    "title": "Začal som ako grafik. Dnes tvorím vizuály, ktoré sa hýbu, reagujú a zanechajú dojem.",
+    "description": "Spájam motion dizajn, AI, AR filtre a digitálny vizuál do výstupov, ktoré dávajú značkám silnejší obraz a agentúram spoľahlivého partnera do produkcie.",
+    "ctaPrimary": { "label": "Pozrieť projekty", "href": "#work" },
+    "ctaSecondary": { "label": "Napíš mi", "href": "mailto:jurajzacek13@gmail.com" },
+    "stats": [
+      { "label": "Kampaní", "value": "+5" },
+      { "label": "Značiek", "value": "+10" },
+      { "label": "Views AR efektov", "value": "60M+" }
+    ],
+    "availabilityLabel": "Dostupný pre nové projekty",
+    "scrollLabel": "Scrolluj nižšie"
+  },
+  "showreel": {
+    "eyebrow": "Showreel",
+    "title": "Tu sa stretáva motion, dizajn, AI aj 3D.",
+    "description": "Nie oddelene. Spolu. Práve tu vzniká výsledok, ktorý má atmosféru, pohyb aj funkciu. Presne tu dáva zmysel slovo HYBRID.",
+    "highlights": [
+      "Motion Design",
+      "AI Visuals",
+      "3D Thinking",
+      "Storytelling",
+      "Premium Output"
+    ],
+    "poster": "/assets/showreel/poster.jpg",
+    "videoUrl": "/assets/showreel/reel.mp4",
+    "videoLabel": "Motion Portfolio",
+    "highlightsLabel": "Hlavné oblasti",
+    "cta": { "label": "Pozrieť showreel", "href": "#showreel" },
+    "featured": true
+  },
+  "portfolio": {
+    "eyebrow": "Vybrané práce",
+    "description": "Výber projektov, kde vizuál nezostal len pri dobrom dojme, ale dostal konkrétnu úlohu, rytmus a výsledok.",
+    "trustedByLabel": "Spolupracoval som s",
+    "graphicWorkLabel": "Grafický dizajn",
+    "motionWorkLabel": "Motion dizajn",
+    "videoIndicatorLabel": "Video",
+    "comingSoonLabel": "Už čoskoro",
+    "clientLabel": "Klient",
+    "agencyLabel": "Agentúra",
+    "yearLabel": "Rok",
+    "viewProjectLabel": "Pozrieť projekt",
+    "backToProjectsLabel": "Späť na projekty",
+    "projectDetailsLabel": "Detaily projektu",
+    "descriptionLabel": "Popis",
+    "processLabel": "Proces",
+    "galleryLabel": "Galéria projektu",
+    "nextProjectLabel": "Ďalší projekt",
+    "interestedLabel": "Zaujal vás tento projekt?",
+    "startConversationLabel": "Začať projekt"
+  },
+  "arShowcase": {
+    "eyebrow": "AR",
+    "title": "Keď vizuál reaguje.",
+    "description": "AR pre mňa nie je len efekt navyše. Je to spôsob, ako vtiahnuť diváka priamo do vizuálneho sveta značky.",
+    "platformLabel": "TikTok Effect House",
+    "comingSoonLabel": "Už čoskoro",
+    "features": [
+      { "title": "Interaktivita", "desc": "Filtre, ktoré reagujú na pohyb a gestá." },
+      { "title": "3D a priestor", "desc": "Integrácia 3D objektov do reálneho sveta." },
+      { "title": "Engagement", "desc": "Vysoký potenciál pre virálne šírenie značky." }
+    ]
+  },
+  "services": {
+    "eyebrow": "Služby",
+    "title": "Čo viem pre agentúru alebo značku dodať",
+    "description": "Špecializované vizuálne riešenia pre moderné digitálne platformy.",
+    "items": [
+      {
+        "id": "social",
+        "title": "Social Media Grafika",
+        "description": "Statický a carousel obsah optimalizovaný pre vysoký dosah a konzistenciu značky.",
+        "icon": "Layout",
+        "order": 1
+      },
+      {
+        "id": "motion",
+        "title": "Motion Design",
+        "description": "Dynamický video obsah a motion grafika navrhnutá tak, aby zaujala v prvých sekundách.",
+        "icon": "Play",
+        "order": 2
+      },
+      {
+        "id": "ai",
+        "title": "AI Content Production",
+        "description": "Využitie špičkových AI nástrojov na zrýchlenie produkcie a tvorbu unikátnych vizuálov.",
+        "icon": "Cpu",
+        "order": 3
+      },
+      {
+        "id": "ar",
+        "title": "AR Filtre",
+        "description": "Interaktívne rozšírená realita pre TikTok, ktorá zvyšuje angažovanosť značky.",
+        "icon": "Sparkles",
+        "order": 4
+      }
+    ]
+  },
+  "collaboration": {
+    "eyebrow": "Proces",
+    "title": "Ako spolupracujem",
+    "description": "Štruktúrovaný prístup k dodávaniu kvalitného vizuálneho obsahu.",
+    "stepLabel": "Krok",
+    "steps": [
+      {
+        "id": "brief",
+        "title": "Zadanie a cieľ",
+        "description": "Pochopenie vašich cieľov, cieľovej skupiny a požiadaviek na platformu.",
+        "icon": "MessageSquare",
+        "order": 1
+      },
+      {
+        "id": "concept",
+        "title": "Smer a návrh",
+        "description": "Vývoj vizuálneho smerovania a kreatívnych konceptov na schválenie.",
+        "icon": "Palette",
+        "order": 2
+      },
+      {
+        "id": "production",
+        "title": "Produkcia",
+        "description": "Realizácia návrhov, motion grafiky alebo vizuálov s podporou AI.",
+        "icon": "Zap",
+        "order": 3
+      },
+      {
+        "id": "delivery",
+        "title": "Finalizácia",
+        "description": "Doladenie výstupov na základe spätnej väzby a dodanie finálnych súborov.",
+        "icon": "CheckCircle",
+        "order": 4
+      }
+    ]
+  },
+  "contact": {
+    "title": "Poďme vytvoriť niečo silné.",
+    "subtitle": "niečo",
+    "highlight": "silné.",
+    "description": "Ak hľadáš človeka, ktorý rozumie agentúrnemu tempu aj moderným technológiám, som tu pre teba.",
+    "cta": "Začať projekt",
+    "status": "Dostupný pre nové zadania",
+    "email": "jurajzacek13@gmail.com",
+    "directLabel": "Priamy kontakt",
+    "socialLabel": "Sociálne siete",
+    "form": {
+      "nameLabel": "Meno",
+      "namePlaceholder": "Vaše meno",
+      "emailLabel": "Email",
+      "emailPlaceholder": "vas@email.com",
+      "messageLabel": "Správa",
+      "messagePlaceholder": "Povedzte mi o vašom projekte...",
+      "submitLabel": "Odoslať správu",
+      "successMessage": "Správa odoslaná! Ozvem sa vám čoskoro."
+    },
+    "socials": [
+      { "name": "LinkedIn", "url": "https://www.linkedin.com/in/jrjzck/", "icon": "Linkedin" },
+      { "name": "TikTok", "url": "https://www.tiktok.com/@p0tm3_h00t", "icon": "Video" }
+    ]
+  },
+  "about": {
+    "eyebrow": "O mne",
+    "title": "Nie som len grafik.",
+    "description": "Začal som pri klasickom dizajne, ale dnes spájam motion dizajn, AI a AR do výstupov, ktoré majú atmosféru aj funkciu. Moja práca je o hľadaní rovnováhy medzi estetikou a technológiou.",
+    "brandsLabel": "Vybrané značky",
+    "expertiseLabel": "Expertíza",
+    "experienceEyebrow": "Skúsenosti",
+    "experienceTitle": "Kariéra",
+    "toolsEyebrow": "Nástroje",
+    "toolsTitle": "Stack",
+    "expertise": [
+      "Motion dizajn",
+      "AI production",
+      "AR filtre",
+      "Social vizuály",
+      "Digitálny dizajn"
+    ],
+    "experience": [
+      {
+        "icon": "Briefcase",
+        "title": "Designer pre agentúrne prostredie",
+        "desc": "Skúsenosti s prácou pre veľké agentúry a globálne značky."
+      },
+      {
+        "icon": "Zap",
+        "title": "Motion + AI workflow",
+        "desc": "Efektívne prepojenie motion dizajnu s najnovšími AI nástrojmi."
+      },
+      {
+        "icon": "Sparkles",
+        "title": "AR thinking",
+        "desc": "Navrhovanie interaktívnych zážitkov, ktoré fungujú v priestore."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Adobe Creative Cloud",
+        "level": "Expert",
+        "desc": "Photoshop, Illustrator, After Effects, Premiere Pro."
+      },
+      {
+        "name": "AI Workflow",
+        "level": "Pokročilý",
+        "desc": "Midjourney, Stable Diffusion, Runway, Magnific."
+      },
+      {
+        "name": "AR Tools",
+        "level": "Expert",
+        "desc": "Effect House Specialist (TikTok)."
+      },
+      {
+        "name": "3D Thinking",
+        "level": "Pokročilý",
+        "desc": "Základy 3D modelovania a animácie pre motion dizajn."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Spolupráca",
+    "title": "Balíky pre agentúrnu produkciu",
+    "description": "Transparentné ceny za špičkové kreatívne služby. Vyberte si balík, ktorý vám vyhovuje.",
+    "plans": [
+      {
+        "id": "content-start",
+        "title": "Content Start",
+        "price": "€900+",
+        "description": "Ideálne pre menšie kampane. Zahŕňa základnú social media grafiku a motion assety.",
+        "cta": "Vybrať balík"
+      },
+      {
+        "id": "campaign-core",
+        "title": "Campaign Core",
+        "price": "€1,800+",
+        "description": "Náš najobľúbenejší balík. Zahŕňa motion dizajn, AI vizuály a AR filter pre TikTok.",
+        "cta": "Vybrať balík",
+        "featured": true
+      },
+      {
+        "id": "advanced-production",
+        "title": "Advanced Production",
+        "price": "€3,200+",
+        "description": "Plná produkcia pre agentúry. Neobmedzené motion assety, pokročilé AR a AI výskum.",
+        "cta": "Vybrať balík"
+      }
+    ]
+  }
+}
