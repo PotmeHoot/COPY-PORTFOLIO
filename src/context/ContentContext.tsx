@@ -1,5 +1,11 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
 import { SiteContent } from "../types/content";
+import { CONTENT_FILES } from "../content/contentFiles";
+import {
+  isEditableContentDocument,
+  mapEditableToSiteContent,
+  mapLegacyToSiteContent
+} from "../content/contentAdapters";
 
 interface ContentContextType {
   content: SiteContent | null;
@@ -18,9 +24,21 @@ export const ContentProvider: React.FC<{ children: React.ReactNode }> = ({ child
     const fetchContent = async () => {
       try {
         setIsLoading(true);
+
+        // Phase 1 normalized source of truth.
+        const editableRes = await fetch(CONTENT_FILES.editable);
+        if (editableRes.ok) {
+          const editableData = await editableRes.json();
+          if (isEditableContentDocument(editableData)) {
+            setContent(mapEditableToSiteContent(editableData));
+            return;
+          }
+        }
+
+        // Backward-compatible fallback to legacy split files.
         const [configRes, projectsRes] = await Promise.all([
-          fetch("/data/config.json"),
-          fetch("/data/projects.json")
+          fetch(CONTENT_FILES.legacyConfig),
+          fetch(CONTENT_FILES.legacyProjects)
         ]);
 
         if (!configRes.ok) {
@@ -33,13 +51,7 @@ export const ContentProvider: React.FC<{ children: React.ReactNode }> = ({ child
         const configData = await configRes.json();
         const projectsData = await projectsRes.json();
 
-        // Merge config and projects into a single SiteContent object
-        const mergedContent: SiteContent = {
-          ...configData,
-          ...projectsData
-        };
-
-        setContent(mergedContent);
+        setContent(mapLegacyToSiteContent(configData, projectsData));
       } catch (err) {
         console.error("Error loading site content:", err);
         setError(err instanceof Error ? err : new Error("Unknown error loading content"));
