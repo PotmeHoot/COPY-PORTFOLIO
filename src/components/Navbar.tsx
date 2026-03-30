@@ -40,6 +40,13 @@ export const Navbar = () => {
         >
           {settings.inquireLabel}
         </Button>
+        <a
+          href="/admin"
+          className="text-[10px] uppercase tracking-[0.2em] font-bold text-text-secondary hover:text-accent transition-colors"
+          aria-label="Open admin panel"
+        >
+          Admin
+        </a>
       </nav>
     </header>
   );
