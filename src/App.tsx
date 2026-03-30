@@ -21,6 +21,7 @@ const Footer = lazy(() => import("./components/Footer").then(m => ({ default: m.
 
 import { ContentProvider, useContent } from "./context/ContentContext";
 import { useEffect } from "react";
+import { applyThemeTokens } from "./content/theme";
 import { LazySection } from "./components/ui/LazySection";
 
 function SectionLoader() {
@@ -33,6 +34,10 @@ function SectionLoader() {
 
 function AppContent() {
   const { content, isLoading, error } = useContent();
+
+  useEffect(() => {
+    applyThemeTokens(content?.theme);
+  }, [content?.theme]);
 
   useEffect(() => {
     const prefetchLowerSections = () => {

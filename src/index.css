@@ -108,7 +108,9 @@
 }
 
 @utility btn-primary {
-  @apply w-full sm:w-auto px-6 py-3 md:px-8 md:py-4 bg-accent text-white rounded-lg font-semibold text-base flex items-center justify-center gap-2 active:scale-[0.98] transition-all duration-200;
+  @apply w-full sm:w-auto px-6 py-3 md:px-8 md:py-4 rounded-lg font-semibold text-base flex items-center justify-center gap-2 active:scale-[0.98] transition-all duration-200;
+  background-color: var(--theme-button-bg, var(--color-accent));
+  color: var(--theme-button-text, #FFFFFF);
   @media (hover: hover) {
     @apply hover:bg-accent-hover hover:-translate-y-0.5 hover:shadow-lg hover:shadow-accent/10;
   }

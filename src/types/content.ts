@@ -38,6 +38,18 @@ export interface SiteSettings {
   };
 }
 
+
+export interface ThemeTokens {
+  pageBackground: string;
+  surfaceBackground: string;
+  textPrimary: string;
+  textSecondary: string;
+  accent: string;
+  border: string;
+  buttonBackground?: string;
+  buttonText?: string;
+}
+
 export interface NavItem {
   id: string;
   label: string;
@@ -268,4 +280,5 @@ export interface SiteContent {
   contact: ContactContent;
   about: AboutContent;
   pricing?: PricingContent;
+  theme?: ThemeTokens;
 }
